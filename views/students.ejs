@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>6th Semester CSE Students</title>
+  </head>
+  <body>
+    <h1>6th Semester CSE Students</h1>
+    <ul>
+      <% students.forEach(student => { %>
+      <li>
+        <%= student.username %> - <%= student.branch %> - <%= student.semester
+        %>
+      </li>
+      <% }) %>
+    </ul>
+    <br />
+    <a href="/">Go Back</a>
+  </body>
+</html>
